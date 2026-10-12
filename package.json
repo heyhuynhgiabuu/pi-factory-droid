@@ -1,0 +1,66 @@
+{
+  "name": "@heyhuynhgiabuu/pi-factory-droid",
+  "version": "0.1.0",
+  "description": "Unofficial Pi provider for Factory (Droid) models: Claude, GPT, Grok and open-weight models through your Factory API key, with Pi owning the agent loop and tools.",
+  "type": "module",
+  "main": "dist/index.js",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE",
+    "CHANGELOG.md"
+  ],
+  "scripts": {
+    "build": "tsc && node -e \"require('node:fs').copyFileSync('src/models.snapshot.json', 'dist/models.snapshot.json')\"",
+    "typecheck": "tsc --noEmit",
+    "test": "tsx --test test/catalog.test.ts test/payload.test.ts",
+    "prepack": "node -e \"require('node:fs').rmSync('dist', { recursive: true, force: true })\" && npm run build"
+  },
+  "keywords": [
+    "pi",
+    "pi-extension",
+    "pi-package",
+    "factory",
+    "droid",
+    "provider",
+    "claude",
+    "gpt"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">=20"
+  },
+  "peerDependencies": {
+    "@earendil-works/pi-ai": "*",
+    "@earendil-works/pi-coding-agent": "*"
+  },
+  "devDependencies": {
+    "@earendil-works/pi-ai": "1.1.0",
+    "@earendil-works/pi-coding-agent": "1.1.0",
+    "@types/node": "^20.0.0",
+    "tsx": "^4.20.6",
+    "typescript": "^5.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "pi": {
+    "extensions": [
+      "./dist/index.js"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/heyhuynhgiabuu/pi-factory-droid.git"
+  },
+  "bugs": {
+    "url": "https://github.com/heyhuynhgiabuu/pi-factory-droid/issues"
+  },
+  "homepage": "https://github.com/heyhuynhgiabuu/pi-factory-droid#readme"
+}

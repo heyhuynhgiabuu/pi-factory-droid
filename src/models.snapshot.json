@@ -1,0 +1,901 @@
+[
+  {
+    "id": "auto",
+    "displayName": "Auto Model",
+    "modelProvider": "factory",
+    "kind": "router",
+    "supportedReasoningEfforts": [
+      "none"
+    ],
+    "noImageSupport": false,
+    "deprecated": false,
+    "disabled": false
+  },
+  {
+    "id": "claude-fable-5.1",
+    "displayName": "Fable 5.1",
+    "modelProvider": "anthropic",
+    "kind": null,
+    "supportedReasoningEfforts": [
+      "off",
+      "low",
+      "medium",
+      "high",
+      "xhigh",
+      "max"
+    ],
+    "noImageSupport": false,
+    "deprecated": false,
+    "disabled": false
+  },
+  {
+    "id": "claude-fable-5",
+    "displayName": "Fable 5",
+    "modelProvider": "anthropic",
+    "kind": null,
+    "supportedReasoningEfforts": [
+      "off",
+      "low",
+      "medium",
+      "high",
+      "xhigh",
+      "max"
+    ],
+    "noImageSupport": false,
+    "deprecated": false,
+    "disabled": false
+  },
+  {
+    "id": "claude-opus-5-5",
+    "displayName": "Opus 5.5",
+    "modelProvider": "anthropic",
+    "kind": null,
+    "supportedReasoningEfforts": [
+      "low",
+      "medium",
+      "high",
+      "xhigh",
+      "max"
+    ],
+    "noImageSupport": false,
+    "deprecated": false,
+    "disabled": false
+  },
+  {
+    "id": "claude-opus-5-5-fast",
+    "displayName": "Opus 5.5 Fast Mode",
+    "modelProvider": "anthropic",
+    "kind": null,
+    "supportedReasoningEfforts": [
+      "low",
+      "medium",
+      "high",
+      "xhigh",
+      "max"
+    ],
+    "noImageSupport": false,
+    "deprecated": false,
+    "disabled": false
+  },
+  {
+    "id": "claude-opus-5",
+    "displayName": "Opus 5",
+    "modelProvider": "anthropic",
+    "kind": null,
+    "supportedReasoningEfforts": [
+      "off",
+      "low",
+      "medium",
+      "high",
+      "xhigh",
+      "max"
+    ],
+    "noImageSupport": false,
+    "deprecated": false,
+    "disabled": false
+  },
+  {
+    "id": "claude-opus-5-fast",
+    "displayName": "Opus 5 Fast Mode",
+    "modelProvider": "anthropic",
+    "kind": null,
+    "supportedReasoningEfforts": [
+      "off",
+      "low",
+      "medium",
+      "high",
+      "xhigh",
+      "max"
+    ],
+    "noImageSupport": false,
+    "deprecated": false,
+    "disabled": false
+  },
+  {
+    "id": "claude-opus-4-8",
+    "displayName": "Opus 4.8",
+    "modelProvider": "anthropic",
+    "kind": null,
+    "supportedReasoningEfforts": [
+      "off",
+      "low",
+      "medium",
+      "high",
+      "xhigh",
+      "max"
+    ],
+    "noImageSupport": false,
+    "deprecated": false,
+    "disabled": false
+  },
+  {
+    "id": "claude-opus-4-8-fast",
+    "displayName": "Opus 4.8 Fast Mode",
+    "modelProvider": "anthropic",
+    "kind": null,
+    "supportedReasoningEfforts": [
+      "off",
+      "low",
+      "medium",
+      "high",
+      "xhigh",
+      "max"
+    ],
+    "noImageSupport": false,
+    "deprecated": false,
+    "disabled": false
+  },
+  {
+    "id": "claude-opus-4-7",
+    "displayName": "Opus 4.7",
+    "modelProvider": "anthropic",
+    "kind": null,
+    "supportedReasoningEfforts": [
+      "off",
+      "low",
+      "medium",
+      "high",
+      "xhigh",
+      "max"
+    ],
+    "noImageSupport": false,
+    "deprecated": false,
+    "disabled": false
+  },
+  {
+    "id": "claude-opus-4-6",
+    "displayName": "Opus 4.6",
+    "modelProvider": "anthropic",
+    "kind": null,
+    "supportedReasoningEfforts": [
+      "off",
+      "low",
+      "medium",
+      "high",
+      "max"
+    ],
+    "noImageSupport": false,
+    "deprecated": false,
+    "disabled": false
+  },
+  {
+    "id": "claude-opus-4-5-20251101",
+    "displayName": "Opus 4.5",
+    "modelProvider": "anthropic",
+    "kind": null,
+    "supportedReasoningEfforts": [
+      "off",
+      "low",
+      "medium",
+      "high"
+    ],
+    "noImageSupport": false,
+    "deprecated": false,
+    "disabled": false
+  },
+  {
+    "id": "claude-sonnet-5-5",
+    "displayName": "Sonnet 5.5",
+    "modelProvider": "anthropic",
+    "kind": null,
+    "supportedReasoningEfforts": [
+      "off",
+      "low",
+      "medium",
+      "high",
+      "xhigh",
+      "max"
+    ],
+    "noImageSupport": false,
+    "deprecated": false,
+    "disabled": false
+  },
+  {
+    "id": "claude-sonnet-5",
+    "displayName": "Sonnet 5",
+    "modelProvider": "anthropic",
+    "kind": null,
+    "supportedReasoningEfforts": [
+      "off",
+      "low",
+      "medium",
+      "high",
+      "xhigh",
+      "max"
+    ],
+    "noImageSupport": false,
+    "deprecated": false,
+    "disabled": false
+  },
+  {
+    "id": "claude-sonnet-4-6",
+    "displayName": "Sonnet 4.6",
+    "modelProvider": "anthropic",
+    "kind": null,
+    "supportedReasoningEfforts": [
+      "off",
+      "low",
+      "medium",
+      "high",
+      "max"
+    ],
+    "noImageSupport": false,
+    "deprecated": false,
+    "disabled": false
+  },
+  {
+    "id": "claude-sonnet-4-5-20250929",
+    "displayName": "Sonnet 4.5",
+    "modelProvider": "anthropic",
+    "kind": null,
+    "supportedReasoningEfforts": [
+      "off",
+      "low",
+      "medium",
+      "high"
+    ],
+    "noImageSupport": false,
+    "deprecated": false,
+    "disabled": false
+  },
+  {
+    "id": "claude-haiku-4-5-20251001",
+    "displayName": "Haiku 4.5",
+    "modelProvider": "anthropic",
+    "kind": null,
+    "supportedReasoningEfforts": [
+      "off",
+      "low",
+      "medium",
+      "high"
+    ],
+    "noImageSupport": false,
+    "deprecated": false,
+    "disabled": false
+  },
+  {
+    "id": "gpt-6.1-sol",
+    "displayName": "GPT-6.1 Sol",
+    "modelProvider": "openai",
+    "kind": null,
+    "supportedReasoningEfforts": [
+      "low",
+      "medium",
+      "high",
+      "xhigh",
+      "max"
+    ],
+    "noImageSupport": false,
+    "deprecated": false,
+    "disabled": false
+  },
+  {
+    "id": "gpt-6-astra",
+    "displayName": "GPT-6 Astra",
+    "modelProvider": "openai",
+    "kind": null,
+    "supportedReasoningEfforts": [
+      "low",
+      "medium",
+      "high",
+      "xhigh",
+      "max"
+    ],
+    "noImageSupport": false,
+    "deprecated": false,
+    "disabled": false
+  },
+  {
+    "id": "gpt-6-sol",
+    "displayName": "GPT-6 Sol",
+    "modelProvider": "openai",
+    "kind": null,
+    "supportedReasoningEfforts": [
+      "none",
+      "low",
+      "medium",
+      "high",
+      "xhigh",
+      "max"
+    ],
+    "noImageSupport": false,
+    "deprecated": false,
+    "disabled": false
+  },
+  {
+    "id": "gpt-6-luna",
+    "displayName": "GPT-6 Luna",
+    "modelProvider": "openai",
+    "kind": null,
+    "supportedReasoningEfforts": [
+      "none",
+      "low",
+      "medium",
+      "high",
+      "xhigh",
+      "max"
+    ],
+    "noImageSupport": false,
+    "deprecated": false,
+    "disabled": false
+  },
+  {
+    "id": "gpt-5.6-sol",
+    "displayName": "GPT-5.6 Sol",
+    "modelProvider": "openai",
+    "kind": null,
+    "supportedReasoningEfforts": [
+      "none",
+      "low",
+      "medium",
+      "high",
+      "xhigh",
+      "max"
+    ],
+    "noImageSupport": false,
+    "deprecated": false,
+    "disabled": false
+  },
+  {
+    "id": "gpt-5.6-sol-fast",
+    "displayName": "GPT-5.6 Sol Fast Mode",
+    "modelProvider": "openai",
+    "kind": null,
+    "supportedReasoningEfforts": [
+      "none",
+      "low",
+      "medium",
+      "high",
+      "xhigh",
+      "max"
+    ],
+    "noImageSupport": false,
+    "deprecated": false,
+    "disabled": false
+  },
+  {
+    "id": "gpt-5.6-terra",
+    "displayName": "GPT-5.6 Terra",
+    "modelProvider": "openai",
+    "kind": null,
+    "supportedReasoningEfforts": [
+      "none",
+      "low",
+      "medium",
+      "high",
+      "xhigh",
+      "max"
+    ],
+    "noImageSupport": false,
+    "deprecated": false,
+    "disabled": false
+  },
+  {
+    "id": "gpt-5.6-luna",
+    "displayName": "GPT-5.6 Luna",
+    "modelProvider": "openai",
+    "kind": null,
+    "supportedReasoningEfforts": [
+      "none",
+      "low",
+      "medium",
+      "high",
+      "xhigh",
+      "max"
+    ],
+    "noImageSupport": false,
+    "deprecated": false,
+    "disabled": false
+  },
+  {
+    "id": "gpt-5.5",
+    "displayName": "GPT-5.5",
+    "modelProvider": "openai",
+    "kind": null,
+    "supportedReasoningEfforts": [
+      "low",
+      "medium",
+      "high",
+      "xhigh"
+    ],
+    "noImageSupport": false,
+    "deprecated": false,
+    "disabled": false
+  },
+  {
+    "id": "gpt-5.5-fast",
+    "displayName": "GPT-5.5 Fast Mode",
+    "modelProvider": "openai",
+    "kind": null,
+    "supportedReasoningEfforts": [
+      "low",
+      "medium",
+      "high",
+      "xhigh"
+    ],
+    "noImageSupport": false,
+    "deprecated": false,
+    "disabled": false
+  },
+  {
+    "id": "gpt-5.5-pro",
+    "displayName": "GPT-5.5 Pro",
+    "modelProvider": "openai",
+    "kind": null,
+    "supportedReasoningEfforts": [
+      "medium",
+      "high",
+      "xhigh"
+    ],
+    "noImageSupport": false,
+    "deprecated": false,
+    "disabled": false
+  },
+  {
+    "id": "gpt-5.4",
+    "displayName": "GPT-5.4",
+    "modelProvider": "openai",
+    "kind": null,
+    "supportedReasoningEfforts": [
+      "low",
+      "medium",
+      "high",
+      "xhigh"
+    ],
+    "noImageSupport": false,
+    "deprecated": false,
+    "disabled": false
+  },
+  {
+    "id": "gpt-5.4-fast",
+    "displayName": "GPT-5.4 Fast Mode",
+    "modelProvider": "openai",
+    "kind": null,
+    "supportedReasoningEfforts": [
+      "low",
+      "medium",
+      "high",
+      "xhigh"
+    ],
+    "noImageSupport": false,
+    "deprecated": false,
+    "disabled": false
+  },
+  {
+    "id": "gpt-5.4-mini",
+    "displayName": "GPT-5.4 Mini",
+    "modelProvider": "openai",
+    "kind": null,
+    "supportedReasoningEfforts": [
+      "low",
+      "medium",
+      "high",
+      "xhigh"
+    ],
+    "noImageSupport": false,
+    "deprecated": false,
+    "disabled": false
+  },
+  {
+    "id": "gpt-5.4-mini-fast",
+    "displayName": "GPT-5.4 Mini Fast Mode",
+    "modelProvider": "openai",
+    "kind": null,
+    "supportedReasoningEfforts": [
+      "low",
+      "medium",
+      "high",
+      "xhigh"
+    ],
+    "noImageSupport": false,
+    "deprecated": false,
+    "disabled": false
+  },
+  {
+    "id": "gpt-5.3-codex",
+    "displayName": "GPT-5.3-Codex",
+    "modelProvider": "openai",
+    "kind": null,
+    "supportedReasoningEfforts": [
+      "low",
+      "medium",
+      "high",
+      "xhigh"
+    ],
+    "noImageSupport": false,
+    "deprecated": false,
+    "disabled": false
+  },
+  {
+    "id": "gpt-5.3-codex-fast",
+    "displayName": "GPT-5.3-Codex Fast Mode",
+    "modelProvider": "openai",
+    "kind": null,
+    "supportedReasoningEfforts": [
+      "low",
+      "medium",
+      "high",
+      "xhigh"
+    ],
+    "noImageSupport": false,
+    "deprecated": false,
+    "disabled": false
+  },
+  {
+    "id": "gpt-5.2",
+    "displayName": "GPT-5.2",
+    "modelProvider": "openai",
+    "kind": null,
+    "supportedReasoningEfforts": [
+      "off",
+      "low",
+      "medium",
+      "high",
+      "xhigh"
+    ],
+    "noImageSupport": false,
+    "deprecated": false,
+    "disabled": false
+  },
+  {
+    "id": "gemini-3.1-pro-preview",
+    "displayName": "Gemini 3.1 Pro",
+    "modelProvider": "google",
+    "kind": null,
+    "supportedReasoningEfforts": [
+      "low",
+      "medium",
+      "high"
+    ],
+    "noImageSupport": false,
+    "deprecated": false,
+    "disabled": false
+  },
+  {
+    "id": "gemini-3.8-flash",
+    "displayName": "Gemini 3.8 Flash",
+    "modelProvider": "google",
+    "kind": null,
+    "supportedReasoningEfforts": [
+      "low",
+      "medium",
+      "high"
+    ],
+    "noImageSupport": false,
+    "deprecated": false,
+    "disabled": false
+  },
+  {
+    "id": "gemini-3.7-flash",
+    "displayName": "Gemini 3.7 Flash",
+    "modelProvider": "google",
+    "kind": null,
+    "supportedReasoningEfforts": [
+      "low",
+      "medium",
+      "high"
+    ],
+    "noImageSupport": false,
+    "deprecated": false,
+    "disabled": false
+  },
+  {
+    "id": "gemini-3.6-flash",
+    "displayName": "Gemini 3.6 Flash",
+    "modelProvider": "google",
+    "kind": null,
+    "supportedReasoningEfforts": [
+      "low",
+      "medium",
+      "high"
+    ],
+    "noImageSupport": false,
+    "deprecated": false,
+    "disabled": false
+  },
+  {
+    "id": "gemini-3.5-flash",
+    "displayName": "Gemini 3.5 Flash",
+    "modelProvider": "google",
+    "kind": null,
+    "supportedReasoningEfforts": [
+      "minimal",
+      "low",
+      "medium",
+      "high"
+    ],
+    "noImageSupport": false,
+    "deprecated": false,
+    "disabled": false
+  },
+  {
+    "id": "gemini-3-flash-preview",
+    "displayName": "Gemini 3 Flash",
+    "modelProvider": "google",
+    "kind": null,
+    "supportedReasoningEfforts": [
+      "minimal",
+      "low",
+      "medium",
+      "high"
+    ],
+    "noImageSupport": false,
+    "deprecated": false,
+    "disabled": false
+  },
+  {
+    "id": "inkling",
+    "displayName": "Inkling",
+    "modelProvider": "factory",
+    "kind": null,
+    "supportedReasoningEfforts": [
+      "off",
+      "minimal",
+      "low",
+      "medium",
+      "high",
+      "xhigh",
+      "max"
+    ],
+    "noImageSupport": false,
+    "deprecated": false,
+    "disabled": false
+  },
+  {
+    "id": "mistral-large-4",
+    "displayName": "Mistral Large 4",
+    "modelProvider": "factory",
+    "kind": null,
+    "supportedReasoningEfforts": [
+      "off",
+      "high"
+    ],
+    "noImageSupport": false,
+    "deprecated": false,
+    "disabled": false
+  },
+  {
+    "id": "mistral-medium-3.5",
+    "displayName": "Mistral Medium 3.5",
+    "modelProvider": "factory",
+    "kind": null,
+    "supportedReasoningEfforts": [
+      "off",
+      "high"
+    ],
+    "noImageSupport": false,
+    "deprecated": false,
+    "disabled": false
+  },
+  {
+    "id": "glm-5.3-flash",
+    "displayName": "GLM-5.3-Flash",
+    "modelProvider": "factory",
+    "kind": null,
+    "supportedReasoningEfforts": [
+      "low",
+      "high",
+      "max"
+    ],
+    "noImageSupport": false,
+    "deprecated": false,
+    "disabled": false
+  },
+  {
+    "id": "glm-5.3",
+    "displayName": "GLM-5.3",
+    "modelProvider": "factory",
+    "kind": null,
+    "supportedReasoningEfforts": [
+      "low",
+      "high",
+      "max"
+    ],
+    "noImageSupport": true,
+    "deprecated": false,
+    "disabled": false
+  },
+  {
+    "id": "glm-5.2",
+    "displayName": "GLM-5.2",
+    "modelProvider": "factory",
+    "kind": null,
+    "supportedReasoningEfforts": [
+      "off",
+      "high",
+      "max"
+    ],
+    "noImageSupport": true,
+    "deprecated": false,
+    "disabled": false
+  },
+  {
+    "id": "glm-5.2-fast",
+    "displayName": "GLM-5.2 Fast",
+    "modelProvider": "factory",
+    "kind": null,
+    "supportedReasoningEfforts": [
+      "off",
+      "high",
+      "max"
+    ],
+    "noImageSupport": true,
+    "deprecated": false,
+    "disabled": false
+  },
+  {
+    "id": "kimi-k3",
+    "displayName": "Kimi K3",
+    "modelProvider": "factory",
+    "kind": null,
+    "supportedReasoningEfforts": [
+      "off",
+      "low",
+      "high",
+      "max"
+    ],
+    "noImageSupport": false,
+    "deprecated": false,
+    "disabled": false
+  },
+  {
+    "id": "qwen3.8-max",
+    "displayName": "Qwen3.8 Max",
+    "modelProvider": "factory",
+    "kind": null,
+    "supportedReasoningEfforts": [
+      "low",
+      "medium",
+      "xhigh"
+    ],
+    "noImageSupport": true,
+    "deprecated": false,
+    "disabled": false
+  },
+  {
+    "id": "nemotron-3-ultra",
+    "displayName": "Nemotron 3 Ultra",
+    "modelProvider": "factory",
+    "kind": null,
+    "supportedReasoningEfforts": [
+      "off",
+      "high"
+    ],
+    "noImageSupport": true,
+    "deprecated": false,
+    "disabled": false
+  },
+  {
+    "id": "deepseek-v4.1-flash",
+    "displayName": "DeepSeek V4.1 Flash",
+    "modelProvider": "factory",
+    "kind": null,
+    "supportedReasoningEfforts": [
+      "off",
+      "low",
+      "high",
+      "max"
+    ],
+    "noImageSupport": false,
+    "deprecated": false,
+    "disabled": false
+  },
+  {
+    "id": "deepseek-v4-flash-0731",
+    "displayName": "DeepSeek V4 Flash 0731 [Deprecated]",
+    "modelProvider": "factory",
+    "kind": null,
+    "supportedReasoningEfforts": [
+      "off",
+      "low",
+      "high",
+      "max"
+    ],
+    "noImageSupport": true,
+    "deprecated": true,
+    "disabled": false
+  },
+  {
+    "id": "deepseek-v4-pro",
+    "displayName": "DeepSeek V4 Pro [Deprecated]",
+    "modelProvider": "factory",
+    "kind": null,
+    "supportedReasoningEfforts": [
+      "off",
+      "low",
+      "high",
+      "max"
+    ],
+    "noImageSupport": true,
+    "deprecated": true,
+    "disabled": false
+  },
+  {
+    "id": "minimax-m3",
+    "displayName": "MiniMax M3",
+    "modelProvider": "factory",
+    "kind": null,
+    "supportedReasoningEfforts": [
+      "high"
+    ],
+    "noImageSupport": false,
+    "deprecated": false,
+    "disabled": false
+  },
+  {
+    "id": "grok-4.7",
+    "displayName": "Grok 4.7",
+    "modelProvider": "xai",
+    "kind": null,
+    "supportedReasoningEfforts": [
+      "low",
+      "medium",
+      "high",
+      "xhigh"
+    ],
+    "noImageSupport": false,
+    "deprecated": false,
+    "disabled": false
+  },
+  {
+    "id": "grok-4.6",
+    "displayName": "Grok 4.6",
+    "modelProvider": "xai",
+    "kind": null,
+    "supportedReasoningEfforts": [
+      "low",
+      "medium",
+      "high",
+      "xhigh"
+    ],
+    "noImageSupport": false,
+    "deprecated": false,
+    "disabled": false
+  },
+  {
+    "id": "grok-4.5",
+    "displayName": "Grok 4.5",
+    "modelProvider": "xai",
+    "kind": null,
+    "supportedReasoningEfforts": [
+      "low",
+      "medium",
+      "high"
+    ],
+    "noImageSupport": false,
+    "deprecated": false,
+    "disabled": false
+  },
+  {
+    "id": "minimax-m2.7",
+    "displayName": "MiniMax M2.7 [Deprecated]",
+    "modelProvider": "factory",
+    "kind": null,
+    "supportedReasoningEfforts": [
+      "high"
+    ],
+    "noImageSupport": true,
+    "deprecated": true,
+    "disabled": false
+  }
+]
