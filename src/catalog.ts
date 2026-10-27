@@ -6,6 +6,8 @@ import { join } from "node:path";
 import type { ProviderModelConfig } from "@earendil-works/pi-coding-agent";
 
 export const LLM_BASE = "https://prem.factory.ai/api/llm";
+/** Provider id under which the Droid models are registered with Pi. */
+export const PROVIDER_ID = "factory";
 
 /** Fields of a `droid.list_models` entry this catalog relies on. */
 export interface DroidModel {

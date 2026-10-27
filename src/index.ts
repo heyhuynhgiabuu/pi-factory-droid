@@ -4,10 +4,10 @@
  * Models come from the Droid CLI (`droid.list_models`), with a shipped snapshot until the first refresh.
  */
 import type { ExtensionAPI } from "@earendil-works/pi-coding-agent";
-import { LLM_BASE, listDroidModels, readProviderRouting, readSnapshot, toPiModels } from "./catalog.js";
+import { LLM_BASE, listDroidModels, PROVIDER_ID, readProviderRouting, readSnapshot, toPiModels } from "./catalog.js";
 import { toDroidPayload } from "./payload.js";
+import { registerSummarizationHooks } from "./summarize.js";
 
-const PROVIDER_ID = "factory";
 const CLIENT_VERSION = process.env.PI_FACTORY_CLIENT_VERSION ?? "0.238.0";
 const DROID_COMMAND = process.env.PI_FACTORY_DROID_COMMAND ?? "droid";
 
@@ -30,6 +30,10 @@ export default function factoryExtension(pi: ExtensionAPI): void {
       }
     },
   });
+
+  // Pi's built-in compaction/branch summaries bypass before_provider_request; run them ourselves
+  // with the Droid rewrite so they pass Factory's identity check.
+  registerSummarizationHooks(pi);
 
   pi.on("before_provider_request", (event, ctx) => {
     if (ctx.model?.provider !== PROVIDER_ID) return undefined;

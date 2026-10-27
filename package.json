@@ -1,6 +1,6 @@
 {
   "name": "@heyhuynhgiabuu/pi-factory-droid",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Unofficial Pi provider for Factory (Droid) models: Claude, GPT, Grok and open-weight models through your Factory API key, with Pi owning the agent loop and tools.",
   "type": "module",
   "main": "dist/index.js",
@@ -19,7 +19,7 @@
   "scripts": {
     "build": "tsc && node -e \"require('node:fs').copyFileSync('src/models.snapshot.json', 'dist/models.snapshot.json')\"",
     "typecheck": "tsc --noEmit",
-    "test": "tsx --test test/catalog.test.ts test/payload.test.ts",
+    "test": "tsx --test test/catalog.test.ts test/payload.test.ts test/summarize.test.ts",
     "prepack": "node -e \"require('node:fs').rmSync('dist', { recursive: true, force: true })\" && npm run build"
   },
   "keywords": [
@@ -41,8 +41,8 @@
     "@earendil-works/pi-coding-agent": "*"
   },
   "devDependencies": {
-    "@earendil-works/pi-ai": "1.2.0",
-    "@earendil-works/pi-coding-agent": "1.2.0",
+    "@earendil-works/pi-ai": "1.3.0",
+    "@earendil-works/pi-coding-agent": "1.3.0",
     "@types/node": "^20.0.0",
     "tsx": "^4.20.6",
     "typescript": "^7.0.2"

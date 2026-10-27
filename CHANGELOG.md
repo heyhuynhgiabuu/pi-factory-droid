@@ -6,6 +6,16 @@ and this project adheres to [Semantic Versioning](https://semver.org/).
 
 ## [Unreleased]
 
+## [0.1.1] - 2026-10-27
+
+### Fixed
+
+- `/compact`, auto-compaction, and `/tree` branch summaries failed with Factory's 403
+  `content_policy_rejected`: Pi builds those summarization requests without the
+  `before_provider_request` rewrite, so they reached Factory without the Droid identity line. For
+  factory models the extension now runs Pi's own summarizers (`compact`, `generateBranchSummary`)
+  with the Droid payload rewrite applied; other providers and the normal request path are unaffected.
+
 ## [0.1.0] - 2026-10-12
 
 ### Added
